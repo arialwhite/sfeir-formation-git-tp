@@ -1,0 +1,19 @@
+Features :
+
+CHK-225 = Ajouter un bouton "Envoyer"
+CHK-226 = Ajouter les questions 
+   "Détection d'intrusion automatique?" et
+   "Infrastructure cloud ?"
+CHK-447 = Ajouter une checkbox sur chaque ligne
+
+En début de journée :
+- Bob commence à développer la feature 226 depuis master
+- Camille commence à développer la feature 225 depuis master
+
+En milieu de journée
+- Alice commence à développer feature 447 en se basant sur la feature de Bob
+
+En fin de journée :
+- Bob merge/squash sa pull request (2 commit)
+- Alice se rebase sur master puis merge/squash sa pull request (1 commit)
+- Camille se rebase sur master puis merge/squash sa pull request (1 commit)
